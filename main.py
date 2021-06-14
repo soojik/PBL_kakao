@@ -31,7 +31,7 @@ def main():
     args = parser.parse_args()
 
     if (args.extract):
-        extract()
+        extract(args)
     if (args.decrypt):
         decrypt()
 
