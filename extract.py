@@ -58,7 +58,7 @@ def extract_message(data):
 
 	save_to_file(kakao)
 
-def extract():
+def extract(args):
 	try:
 		f = open(args.file, 'rb')
 		data = f.read()
